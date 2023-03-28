@@ -1,0 +1,69 @@
+body{
+
+  /* background: linear-gradient(90deg, rgb(79, 131, 236) 0%, rgb(189, 96, 223) 35%, rgba(0,212,255,1) 100%); */
+
+  background-color: rgb(89, 12, 84);
+
+}
+
+
+.Nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  
+}
+
+.Nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.Nav ul li{
+  margin: 15px;
+  font-size: large;
+  list-style: none;
+}
+.Nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+ 
+}
+header{
+  font-size: larger;
+  color: white;
+
+}
+
+.signUp{
+  border-radius: 20px;
+  color: rgb(16, 229, 87);
+  padding: 10px;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.content .Paragraph{
+  
+  text-align: center;
+  margin-top: 300px;
+  background-color: brown;
+  color: white;
+  width: fit-content;
+  margin-left: 45%;
+  box-sizing: content-box;
+  padding: 100px;
+  border-radius: 12px;
+
+ 
+}
+
